@@ -1,6 +1,6 @@
 # How to view the Bing map in WPF maps
 
-This article explains how to show the external geospatial imagery resources for deep-zoom satellite viewing (Bing Map) in Syncfusion WPF map control as shown in below 
+This article explains how to show the external geospatial imagery resources for deep-zoom satellite viewing (Bing Map) in Syncfusion WPF map control, as shown in the following image. 
 
  ![Output image of BingMap](Output/BingMap.png)
 
@@ -8,19 +8,19 @@ This article explains how to show the external geospatial imagery resources for 
 
  [How to view the Bing map in WPF maps](https://www.syncfusion.com/kb/10799/?utm_medium=listing&utm_source=github-examples)
 
-This can be achieved by using LayerType property in ImageryLayer as per below steps
+This can be achieved by using the LayerType property in ImageryLayer as shown in the following steps:
 
 **Step 1:** To enable this feature, define Bing as LayerType.
 
-**Step 2:** Provide the bing Map Key to the BingMapKey property and that key has been obtained from the link.
+**Step 2:** Provide the bing Map Key to the BingMapKey property and that key has been obtained from this link.
 
-**Step 3:** Provide the desired BingMapStyle from its available three types. they are,
+**Step 3:** Provide the desired BingMapStyle from the available three types:
 
 1.	Aerial View
 2.	Road View and
 3.	AerialWithLabel View
 
-Please refer the below code reference, for more details
+Please refer the following code reference, for more details.
 
 [XAML]
 ```
@@ -44,11 +44,11 @@ BingMapStyle = BingMapStyle.Aerial,
 syncMap.Layers.Add(imageryLayer);
 ```	
 
-#See Also
+#See also
 
-[How to interact with shapes on SfMaps?](https://help.syncfusion.com/wpf/maps/map-selection)
+[Interact with shapes on SfMaps](https://help.syncfusion.com/wpf/maps/map-selection)
 
-[How to display item on a map?](https://help.syncfusion.com/wpf/maps/displaying-items-on-a-map)
+[To display item on a map](https://help.syncfusion.com/wpf/maps/displaying-items-on-a-map)
 
-[How to load multiple shape files on SfMaps?](https://help.syncfusion.com/wpf/maps/multilayer-support)
+[To load multiple shape files on SfMaps](https://help.syncfusion.com/wpf/maps/multilayer-support)
 
