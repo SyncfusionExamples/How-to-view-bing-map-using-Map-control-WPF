@@ -44,7 +44,7 @@ BingMapStyle = BingMapStyle.Aerial,
 syncMap.Layers.Add(imageryLayer);
 ```	
 
-#See also
+See also
 
 [Interact with shapes on SfMaps](https://help.syncfusion.com/wpf/maps/map-selection)
 
