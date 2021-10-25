@@ -44,6 +44,8 @@ BingMapStyle = BingMapStyle.Aerial,
 syncMap.Layers.Add(imageryLayer);
 ```	
 
+KB article - [How to view the Bing map in WPF maps](https://www.syncfusion.com/kb/10799/how-to-view-bing-map-using-wpf-map-control-sfmap)
+
 See also
 
 [Interact with shapes on SfMaps](https://help.syncfusion.com/wpf/maps/map-selection)
